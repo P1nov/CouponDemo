@@ -15,6 +15,9 @@
 		040419E523AF404D0045D6D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040419E323AF404D0045D6D1 /* LaunchScreen.storyboard */; };
 		040419F023AF404D0045D6D1 /* UITestDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040419EF23AF404D0045D6D1 /* UITestDemoTests.swift */; };
 		040419FB23AF404D0045D6D1 /* UITestDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040419FA23AF404D0045D6D1 /* UITestDemoUITests.swift */; };
+		04041A0923AF40940045D6D1 /* PNProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04041A0823AF40940045D6D1 /* PNProgressHUD.swift */; };
+		04041A0B23AF45FF0045D6D1 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04041A0A23AF45FF0045D6D1 /* HomePageViewController.swift */; };
+		04041A0F23AF5CCF0045D6D1 /* CouponCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04041A0E23AF5CCF0045D6D1 /* CouponCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		040419F623AF404D0045D6D1 /* UITestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040419FA23AF404D0045D6D1 /* UITestDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestDemoUITests.swift; sourceTree = "<group>"; };
 		040419FC23AF404D0045D6D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04041A0823AF40940045D6D1 /* PNProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PNProgressHUD.swift; sourceTree = "<group>"; };
+		04041A0A23AF45FF0045D6D1 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		04041A0E23AF5CCF0045D6D1 /* CouponCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				040419E323AF404D0045D6D1 /* LaunchScreen.storyboard */,
 				040419E623AF404D0045D6D1 /* Info.plist */,
 				040419E023AF404D0045D6D1 /* Preview Content */,
+				04041A0823AF40940045D6D1 /* PNProgressHUD.swift */,
+				04041A0A23AF45FF0045D6D1 /* HomePageViewController.swift */,
+				04041A0E23AF5CCF0045D6D1 /* CouponCollectionViewCell.swift */,
 			);
 			path = UITestDemo;
 			sourceTree = "<group>";
@@ -267,8 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04041A0F23AF5CCF0045D6D1 /* CouponCollectionViewCell.swift in Sources */,
 				040419D923AF40480045D6D1 /* AppDelegate.swift in Sources */,
 				040419DB23AF40480045D6D1 /* SceneDelegate.swift in Sources */,
+				04041A0923AF40940045D6D1 /* PNProgressHUD.swift in Sources */,
+				04041A0B23AF45FF0045D6D1 /* HomePageViewController.swift in Sources */,
 				040419DD23AF40480045D6D1 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +451,7 @@
 				DEVELOPMENT_TEAM = X369L5Z3KK;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = UITestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +472,7 @@
 				DEVELOPMENT_TEAM = X369L5Z3KK;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = UITestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
